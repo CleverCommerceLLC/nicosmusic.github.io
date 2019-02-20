@@ -1,0 +1,114 @@
+html {
+	background: url(../../assets/images/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+body {
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+footer {
+	padding: 1rem;
+	background: rgba(0, 0, 0, 0.3);
+}
+#main-container {
+	flex: 1;
+}
+#logo {
+	width: 33.33%;
+}
+#heading {
+	font-size: 1.2rem;
+	color: #0E0696;
+}
+#maintenance {
+	font-size: 2rem;
+	margin-top: 15%;
+	color: #FFCD29;
+	background: rgba(0, 0, 0, 0.3);
+}
+#jammin {
+	font-size: 4rem;
+	margin-top: 5%;
+	font-family: 'Rum Raisin', sans-serif;
+	color: #0196AB;
+	letter-spacing: .2rem;
+	background: rgba(0, 0, 0, 0.3);
+}
+.white-outline {
+	text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff, 1px 1px #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+}
+.black-outline {
+	text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+.padding {
+	padding: 0 1rem;
+}
+.footer-content {
+	font-weight: 400;
+	font-size: 1.2rem;
+	width: 30%;
+	display: inline-block;
+	color: #FFCD29;
+}
+.footer-content a {
+	text-decoration: none;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+	#maintenance {
+		margin-top: 25%;
+	}
+}
+@media (orientation: portrait) {
+	#logo {
+		width: 66.66%;
+	}
+	#maintenance {
+		margin-top: 66.66%;
+	}
+}
+@media only screen and (max-width: 1365.98px) {
+	#heading {
+		font-size: 1rem;
+	}
+	.footer-content {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 1199.98px) {
+	#maintenance {
+		font-size: 1.8rem;
+	}
+}
+@media only screen and (max-width: 991.98px) {
+	html {
+		font-size: 14px;
+	}
+	#maintenance {
+		font-size: 1.6rem;
+	}
+}
+@media only screen and (max-width: 767.98px) {
+	#maintenance {
+		font-size: 1.4rem;
+	}
+	.footer-content {
+		font-size: .8rem;
+	}
+}
+@media only screen and (max-width: 575.98px) {
+	html {
+		font-size: 12px;
+	}
+	.footer-content {
+		width: 100%;
+		margin-top: 1rem;
+		font-size: 1.2rem;
+	}
+}
